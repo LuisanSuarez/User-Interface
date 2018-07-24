@@ -70,15 +70,26 @@ body {
 }
 
 .header-nav {
-	text-align: center;
-	margin-top: 5%;
+	/* text-align: left; */
+	margin-top: 3%;
 }
 
-.header-nav a, .header-nav logo {
+.header-nav a {
 	display: inline-block;
-	color: orange;
-	margin: 0 auto;
-	width: 10%;
+	color: gray;
+	margin: 0 3.5%;
+	text-decoration: none;
+	text-align: center;
+}
+
+a:first-of-type {
+		margin-left: 0;
+}
+
+.logo {
+	display: inline-block;
+	margin-left: 10%;
+
 }
 
 .main {
@@ -91,13 +102,13 @@ body {
 .main div {
 	/* border: 1px solid black; */
 	vertical-align:  middle;
-	width: 49%;
+
 
 }
 
 .main-title {
 	font-size: 6rem;
-
+	width: 55%;
 	text-align: center;
 	display: inline-block;
 
@@ -107,17 +118,20 @@ body {
 	/* border: 1px solid black; */
 	text-align: center;
 	display: inline-block;
+	width: 44.5%;
 }
 
 .img-1{
 	height: auto;
-	width: 80%;
+	width: 100%;
 }
 .main-button {
 	background-color: white;
-	width: 150px;
+	width: 35%;
+	height: 40px;
 	font-size: 1.2rem;;
 	border: 1px solid black;
+	margin-top: -100px;
 }
 
 .articles{ /*the section*/
