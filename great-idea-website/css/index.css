@@ -69,9 +69,17 @@ body {
 	padding: 0 7.5%;
 }
 
+header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: white;
+}
+
 .header-nav {
+
 	/* text-align: left; */
-	margin-top: 3%;
+	margin-top: 2%;
 }
 
 .header-nav a {
@@ -80,6 +88,7 @@ body {
 	margin: 0 3.5%;
 	text-decoration: none;
 	text-align: center;
+	padding-bottom: 2%;
 }
 
 a:first-of-type {
@@ -89,6 +98,7 @@ a:first-of-type {
 .logo {
 	display: inline-block;
 	margin-left: 10%;
+	
 
 }
 
